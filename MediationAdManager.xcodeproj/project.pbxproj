@@ -17,8 +17,26 @@
 		960F928C28F4267A00DC412A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F928A28F4267A00DC412A /* LaunchScreen.storyboard */; };
 		960F929228F4273300DC412A /* MediationAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F929128F4273300DC412A /* MediationAdManager.swift */; };
 		96231B7528F69EDD001B9DEE /* Pods_MediationAdManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231B5228F69EDC001B9DEE /* Pods_MediationAdManager.framework */; };
+		967C1BA628FD026A008C52FE /* AppLovinSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231B4A28F69EDC001B9DEE /* AppLovinSDK.xcframework */; };
+		967C1BA728FD026A008C52FE /* AppLovinSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96231B4A28F69EDC001B9DEE /* AppLovinSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		967C1BB528FD0913008C52FE /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C1BB028FD08DF008C52FE /* InterstitialAd.swift */; };
+		967C1BB628FD09AF008C52FE /* AdProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C1BB428FD08DF008C52FE /* AdProtocol.swift */; };
 		E9A1B425C07E532DF7EBC37F /* Pods_MediationAdManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE65B15FEC370DF411298BF /* Pods_MediationAdManager.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		967C1BA828FD026A008C52FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				967C1BA728FD026A008C52FE /* AppLovinSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		960F926D28F4252900DC412A /* MediationAdManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediationAdManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +71,9 @@
 		96231B5428F69EDC001B9DEE /* UnityAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UnityAds.xcframework; path = Pods/UnityAds/UnityAds.xcframework; sourceTree = "<group>"; };
 		96231B5528F69EDC001B9DEE /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Pods/GoogleUserMessagingPlatform/Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		96231B5628F69EDC001B9DEE /* VungleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VungleSDK.xcframework; path = "Pods/VungleSDK-iOS/VungleSDK.xcframework"; sourceTree = "<group>"; };
+		967C1BB028FD08DF008C52FE /* InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
+		967C1BB428FD08DF008C52FE /* AdProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdProtocol.swift; sourceTree = "<group>"; };
+		967C1BB728FD54C9008C52FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EAE65B15FEC370DF411298BF /* Pods_MediationAdManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediationAdManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50CF0D0E2EA0C3A842F3C1C /* Pods-MediationAdManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationAdManager.release.xcconfig"; path = "Target Support Files/Pods-MediationAdManager/Pods-MediationAdManager.release.xcconfig"; sourceTree = "<group>"; };
 		FD4293ECC007971992F55E23 /* Pods-MediationAdManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationAdManager.debug.xcconfig"; path = "Target Support Files/Pods-MediationAdManager/Pods-MediationAdManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967C1BA628FD026A008C52FE /* AppLovinSDK.xcframework in Frameworks */,
 				96231B7528F69EDD001B9DEE /* Pods_MediationAdManager.framework in Frameworks */,
 				E9A1B425C07E532DF7EBC37F /* Pods_MediationAdManager.framework in Frameworks */,
 			);
@@ -129,9 +151,12 @@
 		960F926F28F4252900DC412A /* MediationAdManager */ = {
 			isa = PBXGroup;
 			children = (
+				967C1BB728FD54C9008C52FE /* Info.plist */,
 				960F927028F4252900DC412A /* MediationAdManager.h */,
 				960F927128F4252900DC412A /* MediationAdManager.docc */,
 				960F929128F4273300DC412A /* MediationAdManager.swift */,
+				967C1BB028FD08DF008C52FE /* InterstitialAd.swift */,
+				967C1BB428FD08DF008C52FE /* AdProtocol.swift */,
 			);
 			path = MediationAdManager;
 			sourceTree = "<group>";
@@ -200,6 +225,7 @@
 				960F926A28F4252900DC412A /* Frameworks */,
 				960F926B28F4252900DC412A /* Resources */,
 				9962BAE94BA83F58E7C981A0 /* [CP] Copy Pods Resources */,
+				967C1BA828FD026A008C52FE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +358,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				960F927228F4252900DC412A /* MediationAdManager.docc in Sources */,
+				967C1BB528FD0913008C52FE /* InterstitialAd.swift in Sources */,
+				967C1BB628FD09AF008C52FE /* AdProtocol.swift in Sources */,
 				960F929228F4273300DC412A /* MediationAdManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +528,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediationAdManager/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -533,6 +562,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediationAdManager/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -567,6 +597,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -596,6 +627,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;

@@ -13,9 +13,11 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
-    print(MediationAdManager.shared.getTest())
   }
 
-
+  @IBAction func onTapShowInterstitial(_ sender: Any) {
+    MediationAdManager.shared.show(ad: .interstitial)
+  }
+  
 }
 

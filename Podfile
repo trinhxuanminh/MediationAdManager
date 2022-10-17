@@ -1,6 +1,6 @@
 # Sources
 source 'https://cdn.cocoapods.org/'
-
+platform :ios, '11.0'
 # Settings
 use_frameworks! :linkage => :static
 inhibit_all_warnings!
