@@ -620,6 +620,7 @@
 		0965B7F601142EC1FDED74B6248935EA /* FBMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBMediaView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBMediaView.h"; sourceTree = "<group>"; };
 		097C508E4C0A3617E02226B791599574 /* UITableView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
 		099BA2D155DA382BC6FBD96B27084080 /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
+		0B256717A0B609EC7B5E1CC0DCC32BA7 /* AppLovinMediationFacebookAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationFacebookAdapter.xcframework; path = "AppLovinMediationFacebookAdapter-6.12.0.0/AppLovinMediationFacebookAdapter.xcframework"; sourceTree = "<group>"; };
 		0B3E2DBD2221E56FCA2666113B930014 /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
 		0B6E04C9B1B28E45AAD5BD071980356A /* FBAdSettingsBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdSettingsBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdSettingsBridge.h"; sourceTree = "<group>"; };
 		0B895E03EF273F31127C294AD8CDD3E2 /* Recoverable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recoverable.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/Recoverable.swift; sourceTree = "<group>"; };
@@ -635,7 +636,6 @@
 		136FD2BA8D107F44CB2C1B10D718375E /* AdColony-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AdColony-xcframeworks.sh"; sourceTree = "<group>"; };
 		140191ECBB3FDA85F7250893461F3C32 /* SkeletonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonConfig.swift; sourceTree = "<group>"; };
 		144C63666FAA0ECBF115CE254DC9F787 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
-		15982FF47C8CF48FFE99BFD8C431C78D /* AppLovinSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinSDK.xcframework; path = "applovin-ios-sdk-11.5.1/AppLovinSDK.xcframework"; sourceTree = "<group>"; };
 		18E42D8E6DDF72278283190DB47446C1 /* GULHeartbeatDateStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorage.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h; sourceTree = "<group>"; };
 		191D6C2E986164CE0FB17B7AD6D21793 /* FBAdViewBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdViewBridge.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBAdViewBridge.h"; sourceTree = "<group>"; };
 		1952EB66A2A8A08427F0250B2AA17B75 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
@@ -714,7 +714,6 @@
 		49CA2621C0FB38FBFD71CA1D4CF8486B /* AppLovinMediationFacebookAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppLovinMediationFacebookAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
 		4A56BFD589CB400C8FFE24A67AF22AE3 /* GULAppDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h; sourceTree = "<group>"; };
 		4BB623A77CDB332A03631320933FD0B7 /* AppLovinMediationAdColonyAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppLovinMediationAdColonyAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
-		4BE94514360E4E8C31849C29AACF3CF8 /* AppLovinMediationUnityAdsAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationUnityAdsAdapter.xcframework; path = "AppLovinMediationUnityAdsAdapter-4.4.0.0/AppLovinMediationUnityAdsAdapter.xcframework"; sourceTree = "<group>"; };
 		4D5F55AFB871D18BD39E73CEE7256482 /* GoogleUserMessagingPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.debug.xcconfig; sourceTree = "<group>"; };
 		4D8930B5DC6A54B07FE002B92AA72E10 /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
 		4E35583A4013DA5813108C59B42722F2 /* nanopb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.debug.xcconfig; sourceTree = "<group>"; };
@@ -787,6 +786,7 @@
 		7A201A20D25A1E09C3085C4757133C41 /* FBRewardedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedInterstitialAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBRewardedInterstitialAd.h"; sourceTree = "<group>"; };
 		7A7605C47F4AE0C146055FFEBEA46424 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		7AD6D6A23D39EF07C32FD800716B1230 /* AppLovinMediationVungleAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppLovinMediationVungleAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
+		7B6A3DE38A4FEDCF17BD7D4EE7F13AE0 /* AppLovinMediationAdColonyAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationAdColonyAdapter.xcframework; path = "AppLovinMediationAdColonyAdapter-4.9.0.0.2/AppLovinMediationAdColonyAdapter.xcframework"; sourceTree = "<group>"; };
 		7B800F106A9CB508D016B0DB81811CE8 /* SkeletonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-umbrella.h"; sourceTree = "<group>"; };
 		7C5883906F3299014029A4B26A272043 /* FBAudienceNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBAudienceNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		7D510E59928DF30EA03F12491AD3BDC4 /* PrepareViewForSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrepareViewForSkeleton.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/PrepareViewForSkeleton.swift; sourceTree = "<group>"; };
@@ -804,6 +804,7 @@
 		893724135AE9A3CFFAA49A9CCA46C93F /* UIView+FBNativeAdViewTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FBNativeAdViewTag.h"; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/UIView+FBNativeAdViewTag.h"; sourceTree = "<group>"; };
 		8946D8B8BF1C6E045CCAAA7750FF07C5 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Sources/ConstraintInsets.swift; sourceTree = "<group>"; };
 		89786D62041593CEA5C4678D409BC777 /* FBRewardedVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBRewardedVideoAd.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBRewardedVideoAd.h"; sourceTree = "<group>"; };
+		8A467EC9DAB97A1500DD8CB61890A424 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AppLovinSDKResources.bundle; path = "applovin-ios-sdk-11.5.3/AppLovinSDKResources.bundle"; sourceTree = "<group>"; };
 		8AD3725CE9DBA39C6D720C2E5610FD33 /* AdColony.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColony.h; path = "AdColony.xcframework/ios-arm64_armv7/AdColony.framework/Headers/AdColony.h"; sourceTree = "<group>"; };
 		8C4E4C73C71F4281BC5F05175C3A6B99 /* FBAdIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdIconView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBAdIconView.h"; sourceTree = "<group>"; };
 		8D52CCDE1878E23BE0B8173D6E800D64 /* FBNativeBannerAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeBannerAdView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBNativeBannerAdView.h"; sourceTree = "<group>"; };
@@ -822,7 +823,6 @@
 		94602352EB63687790DB786E9A1E9EA3 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Sources/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		9465001DC36383BA7B50B279AD33F331 /* FBAdExtraHint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAdExtraHint.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAdExtraHint.h"; sourceTree = "<group>"; };
 		95135DABEF2CF553E00A5AF836AB4B65 /* FBLPromise+All.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+All.h"; path = "Sources/FBLPromises/include/FBLPromise+All.h"; sourceTree = "<group>"; };
-		95509619835EDC8B0354B048F22E3127 /* AppLovinMediationFacebookAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationFacebookAdapter.xcframework; path = "AppLovinMediationFacebookAdapter-6.11.2.1/AppLovinMediationFacebookAdapter.xcframework"; sourceTree = "<group>"; };
 		95656B8020DD3C607B2E1E17D70B8E4F /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
 		967C0137A2426728C6AA11D1790E70D5 /* SkeletonFlowHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonFlowHandler.swift; path = SkeletonViewCore/Sources/Internal/SkeletonFlowHandler.swift; sourceTree = "<group>"; };
 		979486118B3E90C08386079D57962701 /* SnapKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -901,6 +901,7 @@
 		C5632C5C071BE2690303BA334B2B2EBB /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/Int+Extensions.swift"; sourceTree = "<group>"; };
 		C59116B287D4B2999517655ADB209360 /* AppLovinSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppLovinSDK.release.xcconfig; sourceTree = "<group>"; };
 		C59DD693BA65B20968A7E387696DCC1B /* FBNativeAdTableViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewAdProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewAdProvider.h"; sourceTree = "<group>"; };
+		C643EFA75E7B5034494F75E13A542F5F /* AppLovinSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinSDK.xcframework; path = "applovin-ios-sdk-11.5.3/AppLovinSDK.xcframework"; sourceTree = "<group>"; };
 		C726A2126D7B444419F56085A0926684 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		C758BF2B3E9A24546EF72CF77BF958B3 /* GoogleAppMeasurement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.release.xcconfig; sourceTree = "<group>"; };
 		C7BACDB5DEF41BE2FAF8A61542B0216F /* GULSceneDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSceneDelegateSwizzler.m; path = GoogleUtilities/AppDelegateSwizzler/GULSceneDelegateSwizzler.m; sourceTree = "<group>"; };
@@ -928,8 +929,8 @@
 		D5B57876880456116945D58212618E66 /* FBNativeAdTableViewCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdTableViewCellProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBNativeAdTableViewCellProvider.h"; sourceTree = "<group>"; };
 		D5E18660391CB9E8611214E801AFE2AA /* AppLovinMediationGoogleAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppLovinMediationGoogleAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
 		D5EEB687C802BBFA3A2F0E37742BFDF6 /* FBNativeAdsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdsManager.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_armv7/FBAudienceNetwork.framework/Headers/FBNativeAdsManager.h"; sourceTree = "<group>"; };
-		D736A5C377738C4DC9A9DE8D04387E89 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AppLovinSDKResources.bundle; path = "applovin-ios-sdk-11.5.1/AppLovinSDKResources.bundle"; sourceTree = "<group>"; };
 		D79CFA3D73B934B455C0610A5B4E3119 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
+		D7FC59BBD529325CC3B33D12C16B21A5 /* AppLovinMediationGoogleAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationGoogleAdapter.xcframework; path = "AppLovinMediationGoogleAdapter-9.11.0.5/AppLovinMediationGoogleAdapter.xcframework"; sourceTree = "<group>"; };
 		D815EC3165885C7006704E4A69A79EEC /* FBNativeAdBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdBaseView.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdBaseView.h"; sourceTree = "<group>"; };
 		D8922BC1DE41E6CBA632393C780C3707 /* SkeletonCollectionViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionViewProtocols.swift; path = SkeletonViewCore/Sources/API/Collections/CollectionViews/SkeletonCollectionViewProtocols.swift; sourceTree = "<group>"; };
 		D8ABD78ED67FF7FF312BFDF15CDE0F8A /* AdColony.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AdColony.xcframework; sourceTree = "<group>"; };
@@ -948,10 +949,8 @@
 		E2B1BCBBDCA71D112C908670E1224F18 /* UIView+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Transitions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Transitions.swift"; sourceTree = "<group>"; };
 		E3341395DC32C09C59E68F34E2D573DD /* UnityAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = UnityAds.xcframework; sourceTree = "<group>"; };
 		E41CFA78DCBB06CDC822EF36FB2AA8BD /* Pods-MediationAdManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MediationAdManager"; path = Pods_MediationAdManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E421370F264E2A982AF25B39F4456A3F /* AppLovinMediationGoogleAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationGoogleAdapter.xcframework; path = "AppLovinMediationGoogleAdapter-9.11.0.2/AppLovinMediationGoogleAdapter.xcframework"; sourceTree = "<group>"; };
 		E482CF56C56E9AB4274EFCDD58A6004F /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Sources/Typealiases.swift; sourceTree = "<group>"; };
 		E64ABB9238D8E74C18B6CA930CA0B5E0 /* PromisesObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromisesObjC-dummy.m"; sourceTree = "<group>"; };
-		E66DA4415217F91FB3B7061810D526F1 /* AppLovinMediationAdColonyAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationAdColonyAdapter.xcframework; path = "AppLovinMediationAdColonyAdapter-4.9.0.0.0/AppLovinMediationAdColonyAdapter.xcframework"; sourceTree = "<group>"; };
 		E6BFA64501A8EAAD60DF7542661D927E /* FBLPromise+Validate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Validate.h"; path = "Sources/FBLPromises/include/FBLPromise+Validate.h"; sourceTree = "<group>"; };
 		E8A923904FDC72DFA907690384B71907 /* FBAudienceNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAudienceNetwork.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBAudienceNetwork.h"; sourceTree = "<group>"; };
 		E9440620C0429C9720C8263D3C07C897 /* FBNativeAdCollectionViewAdProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBNativeAdCollectionViewAdProvider.h; path = "Static/FBAudienceNetwork.xcframework/ios-arm64_x86_64-simulator/FBAudienceNetwork.framework/Headers/FBNativeAdCollectionViewAdProvider.h"; sourceTree = "<group>"; };
@@ -993,6 +992,7 @@
 		FB5C128AE433F61326ED0D3393259689 /* AdColonyAdOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdColonyAdOptions.h; path = "AdColony.xcframework/ios-arm64_armv7/AdColony.framework/Headers/AdColonyAdOptions.h"; sourceTree = "<group>"; };
 		FB7765616E807B87E8DF7441FA20ADE4 /* SkeletonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonType.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonType.swift; sourceTree = "<group>"; };
 		FBA351B0DDE7495EA7355E244DFA7288 /* AppLovinMediationUnityAdsAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppLovinMediationUnityAdsAdapter.release.xcconfig; sourceTree = "<group>"; };
+		FC91A0F989F79144CE77FC9487D15B52 /* AppLovinMediationUnityAdsAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AppLovinMediationUnityAdsAdapter.xcframework; path = "AppLovinMediationUnityAdsAdapter-4.4.1.0/AppLovinMediationUnityAdsAdapter.xcframework"; sourceTree = "<group>"; };
 		FDBD0E651FBB664942719A36317B4777 /* GULNetworkURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkURLSession.h; path = GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkURLSession.h; sourceTree = "<group>"; };
 		FF76B585B9E731E923CE47DD76B9A903 /* ConstraintMakerPrioritizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPrioritizable.swift; path = Sources/ConstraintMakerPrioritizable.swift; sourceTree = "<group>"; };
 		FFA90C42A24EDA80BCD9A5AA1A408FEF /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Sources/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
@@ -1058,6 +1058,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		01EFA5C48A4B4CC79FB26B632CDE1092 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC91A0F989F79144CE77FC9487D15B52 /* AppLovinMediationUnityAdsAdapter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0C4089F491418E3A62D59A218CDBDDF2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1094,8 +1102,8 @@
 		143E9680FFAA58ECFC92217B3DB508A9 /* AppLovinSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A8F0F7DE322E3ADD22E28C05136F9018 /* Frameworks */,
-				B70AF01AC519D3847088A0408D5C7F79 /* Resources */,
+				BE0C6FA2BF737AE7D802C77EA5BA5F8C /* Frameworks */,
+				E1FA669F65DF90235A97AC51ED5E2801 /* Resources */,
 				E723E446C6670968CC8DADAFB724065C /* Support Files */,
 			);
 			name = AppLovinSDK;
@@ -1139,7 +1147,7 @@
 		220D8C175039951C362AB4AE3ABB8253 /* AppLovinMediationAdColonyAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				74B98EC3B435E877182F71618C335371 /* Frameworks */,
+				D3B8E6F479EA1E328C3A63E9119170C4 /* Frameworks */,
 				32ED73B33975A1DCB1FC289152D6EA35 /* Support Files */,
 			);
 			name = AppLovinMediationAdColonyAdapter;
@@ -1314,14 +1322,6 @@
 			path = "VungleSDK-iOS";
 			sourceTree = "<group>";
 		};
-		4CC7AAD2914C0E2698CEB75E3B36075C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E421370F264E2A982AF25B39F4456A3F /* AppLovinMediationGoogleAdapter.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4D7490C61E3530CDE752A67198CC79B5 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
@@ -1341,7 +1341,7 @@
 		522C1BCA4BA8E91ADDE048D2C43B2657 /* AppLovinMediationGoogleAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				4CC7AAD2914C0E2698CEB75E3B36075C /* Frameworks */,
+				ED5CD7005FC9DB710EFB147DB9099875 /* Frameworks */,
 				868F6253A85668B0D1E27EDCEA94748F /* Support Files */,
 			);
 			name = AppLovinMediationGoogleAdapter;
@@ -1426,14 +1426,6 @@
 				545B4524B0322B4C74D67DF89697477E /* NSURLSession+GULPromises.m */,
 			);
 			name = Environment;
-			sourceTree = "<group>";
-		};
-		74B98EC3B435E877182F71618C335371 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E66DA4415217F91FB3B7061810D526F1 /* AppLovinMediationAdColonyAdapter.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		767B1F0440A14198952E8022F2D87E89 /* Frameworks */ = {
@@ -1627,7 +1619,7 @@
 		83EF4EF771911F36226119B0C816B6D0 /* AppLovinMediationFacebookAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				8BC6D9FDF54C9AC6B75CA7B60F6F92A9 /* Frameworks */,
+				F4E7AA0FDEE895FBBCF088617FD1B90D /* Frameworks */,
 				A244AE4FE5830724A5CA83F15A313900 /* Support Files */,
 			);
 			name = AppLovinMediationFacebookAdapter;
@@ -1643,14 +1635,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AppLovinMediationGoogleAdapter";
-			sourceTree = "<group>";
-		};
-		8BC6D9FDF54C9AC6B75CA7B60F6F92A9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				95509619835EDC8B0354B048F22E3127 /* AppLovinMediationFacebookAdapter.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9010BB87F73BC4EA3C04A7249DC5602F /* Support Files */ = {
@@ -1698,14 +1682,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		98609466B0D4DAEDFEB11ED78E033075 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4BE94514360E4E8C31849C29AACF3CF8 /* AppLovinMediationUnityAdsAdapter.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9B952F2357FF4E464E7BCFAC8E6DCD4D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1744,18 +1720,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A8F0F7DE322E3ADD22E28C05136F9018 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				15982FF47C8CF48FFE99BFD8C431C78D /* AppLovinSDK.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AAD12C88AC3D41DDD3F48E4C5316A21D /* AppLovinMediationUnityAdsAdapter */ = {
 			isa = PBXGroup;
 			children = (
-				98609466B0D4DAEDFEB11ED78E033075 /* Frameworks */,
+				01EFA5C48A4B4CC79FB26B632CDE1092 /* Frameworks */,
 				0C4089F491418E3A62D59A218CDBDDF2 /* Support Files */,
 			);
 			name = AppLovinMediationUnityAdsAdapter;
@@ -1826,14 +1794,6 @@
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
-		B70AF01AC519D3847088A0408D5C7F79 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D736A5C377738C4DC9A9DE8D04387E89 /* AppLovinSDKResources.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		BAF0EB3811CC20E75F1BD498DBC68869 /* PromisesObjC */ = {
 			isa = PBXGroup;
 			children = (
@@ -1883,6 +1843,14 @@
 			path = PromisesObjC;
 			sourceTree = "<group>";
 		};
+		BE0C6FA2BF737AE7D802C77EA5BA5F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C643EFA75E7B5034494F75E13A542F5F /* AppLovinSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C269C81D10AE18E907DCBFE2414B968D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1916,6 +1884,14 @@
 			isa = PBXGroup;
 			children = (
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3B8E6F479EA1E328C3A63E9119170C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A3DE38A4FEDCF17BD7D4EE7F13AE0 /* AppLovinMediationAdColonyAdapter.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1962,6 +1938,14 @@
 			name = MethodSwizzler;
 			sourceTree = "<group>";
 		};
+		E1FA669F65DF90235A97AC51ED5E2801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A467EC9DAB97A1500DD8CB61890A424 /* AppLovinSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E5CE16E87A3CCFB86A563081FADED0C4 /* UnityAds */ = {
 			isa = PBXGroup;
 			children = (
@@ -1981,6 +1965,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AppLovinSDK";
+			sourceTree = "<group>";
+		};
+		ED5CD7005FC9DB710EFB147DB9099875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7FC59BBD529325CC3B33D12C16B21A5 /* AppLovinMediationGoogleAdapter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4E7AA0FDEE895FBBCF088617FD1B90D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B256717A0B609EC7B5E1CC0DCC32BA7 /* AppLovinMediationFacebookAdapter.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F9BBB867C8F83A880AF0763098989A32 /* Products */ = {

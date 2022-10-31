@@ -1,6 +1,6 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/AppLovinMediationAdColonyAdapter
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AdColony" "${PODS_ROOT}/AppLovinMediationAdColonyAdapter/AppLovinMediationAdColonyAdapter-4.9.0.0.0" "${PODS_ROOT}/AppLovinSDK/applovin-ios-sdk-11.5.1" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdColony" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AdColony" "${PODS_ROOT}/AppLovinMediationAdColonyAdapter/AppLovinMediationAdColonyAdapter-4.9.0.0.2" "${PODS_ROOT}/AppLovinSDK/applovin-ios-sdk-11.5.3" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AdColony" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinMediationAdColonyAdapter/Headers"
 PODS_BUILD_DIR = ${BUILD_DIR}

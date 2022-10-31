@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/UnityAds-Swift.h</key>
 		<data>
-		SHUr+qxoSb9ZpMh8a8eeTLOU8SI=
+		PBmhF6wcI3wmvp9yCsi/DNSrTNc=
 		</data>
 		<key>Headers/UnityAds.h</key>
 		<data>
@@ -71,10 +71,6 @@
 		<key>Headers/UnityAdsBannerDelegate.h</key>
 		<data>
 		MS3jVHEZXI0C9EMOlJ6PxsI4bdc=
-		</data>
-		<key>Headers/UnityAdsCore.h</key>
-		<data>
-		lZWJba7saCOdH24BxTVq9gWqC9o=
 		</data>
 		<key>Headers/UnityAdsInitializationDelegate.h</key>
 		<data>
@@ -122,7 +118,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NWnStwwGOWXg6DZG7sdooclIJdk=
+		rHtIwwGQs3Ek6joXjnG2sXRULB0=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -130,11 +126,11 @@
 		</data>
 		<key>Modules/UnityAds.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jTGalqUVoUucIycFVLeV9wA0H+0=
+		/+etoECc0sJdlrIljdUX85nzLG0=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		957tl5HZlUWrPi8EJTVdnkTSoOU=
+		liWT3Vw6hOZk5aA6uyZzqtuq6ik=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -142,11 +138,11 @@
 		</data>
 		<key>Modules/UnityAds.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		jTGalqUVoUucIycFVLeV9wA0H+0=
+		/+etoECc0sJdlrIljdUX85nzLG0=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		957tl5HZlUWrPi8EJTVdnkTSoOU=
+		liWT3Vw6hOZk5aA6uyZzqtuq6ik=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -154,11 +150,11 @@
 		</data>
 		<key>Modules/UnityAds.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		phM6nEBmIQZwlOaErQ7iW3dtUsc=
+		kqQZS+/Ww913JUoOvq+XM6a32xM=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xC8aa1Z5TZNDDsLR0Izmy49v5HE=
+		lnb5C6qxQBWFzb0b0UHJL5s4g2o=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -166,11 +162,11 @@
 		</data>
 		<key>Modules/UnityAds.swiftmodule/i386.swiftinterface</key>
 		<data>
-		phM6nEBmIQZwlOaErQ7iW3dtUsc=
+		kqQZS+/Ww913JUoOvq+XM6a32xM=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/i386.swiftmodule</key>
 		<data>
-		xC8aa1Z5TZNDDsLR0Izmy49v5HE=
+		lnb5C6qxQBWFzb0b0UHJL5s4g2o=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -178,11 +174,11 @@
 		</data>
 		<key>Modules/UnityAds.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		THXpeHNCny7yHj8QFQGG1oebDdg=
+		neRhINGIHVML8Xk6cM/nL+WO4uo=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DS0o9I06GOYgn+PQCYTUC2scK+Q=
+		cdchcHjzSmEJ/6OhjobLkjLWTQc=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -190,11 +186,11 @@
 		</data>
 		<key>Modules/UnityAds.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		THXpeHNCny7yHj8QFQGG1oebDdg=
+		neRhINGIHVML8Xk6cM/nL+WO4uo=
 		</data>
 		<key>Modules/UnityAds.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		DS0o9I06GOYgn+PQCYTUC2scK+Q=
+		cdchcHjzSmEJ/6OhjobLkjLWTQc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -365,11 +361,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SHUr+qxoSb9ZpMh8a8eeTLOU8SI=
+			PBmhF6wcI3wmvp9yCsi/DNSrTNc=
 			</data>
 			<key>hash2</key>
 			<data>
-			D+hPt+dOO0zrtm7EAnW66ZsVJ2Su5a9qabRxD3tIC7E=
+			7Q6mlnnmkHOmeGU3bFk9gVFSDKc6c9nzji2aArapcVw=
 			</data>
 		</dict>
 		<key>Headers/UnityAds.h</key>
@@ -392,17 +388,6 @@
 			<key>hash2</key>
 			<data>
 			X5NWpsu1AFppbVgBsOabHG/i9zdewXCL71ZPF7YjLQk=
-			</data>
-		</dict>
-		<key>Headers/UnityAdsCore.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lZWJba7saCOdH24BxTVq9gWqC9o=
-			</data>
-			<key>hash2</key>
-			<data>
-			90eijLW4hPFoAb5ev/lxrWBfzD8COJzXuZmiKxIFqF0=
 			</data>
 		</dict>
 		<key>Headers/UnityAdsInitializationDelegate.h</key>
@@ -541,22 +526,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jTGalqUVoUucIycFVLeV9wA0H+0=
+			/+etoECc0sJdlrIljdUX85nzLG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Ac/8UQt4lkCMo6/1ezdjfr4cpbCs0g/eyiE9d4/0LE=
+			VEL0KEXDkxqIeh/EiajdWhQfWlI0vVkTpXmRYNPTc2g=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			957tl5HZlUWrPi8EJTVdnkTSoOU=
+			liWT3Vw6hOZk5aA6uyZzqtuq6ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yj3tps1sQvuqdDGFysIYTGxAcvqIHcX3QzLYxP3DVCM=
+			TAXsS/pW9ff7vjciYopYVvUcYIpFNe89qFh4e3+xWko=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/arm64.swiftdoc</key>
@@ -574,22 +559,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jTGalqUVoUucIycFVLeV9wA0H+0=
+			/+etoECc0sJdlrIljdUX85nzLG0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Ac/8UQt4lkCMo6/1ezdjfr4cpbCs0g/eyiE9d4/0LE=
+			VEL0KEXDkxqIeh/EiajdWhQfWlI0vVkTpXmRYNPTc2g=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			957tl5HZlUWrPi8EJTVdnkTSoOU=
+			liWT3Vw6hOZk5aA6uyZzqtuq6ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yj3tps1sQvuqdDGFysIYTGxAcvqIHcX3QzLYxP3DVCM=
+			TAXsS/pW9ff7vjciYopYVvUcYIpFNe89qFh4e3+xWko=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -607,22 +592,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			phM6nEBmIQZwlOaErQ7iW3dtUsc=
+			kqQZS+/Ww913JUoOvq+XM6a32xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			61vywZ8xziZceTAGnG0O8Wxij/wJ7/+sfyFCTsZTAGc=
+			HTv6sgv7F4p0MJLZP7gyeqHbRMfvl+s/QlCt+XPwCnA=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xC8aa1Z5TZNDDsLR0Izmy49v5HE=
+			lnb5C6qxQBWFzb0b0UHJL5s4g2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			JJWouz8boMpfmy4fL2XLyTNPGFCGMi1borU9ydkYeEc=
+			M44RGMBJri5Mwwf8vNH+zHwqQ5d6NN4mhcLXl+wenkc=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/i386.swiftdoc</key>
@@ -640,22 +625,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			phM6nEBmIQZwlOaErQ7iW3dtUsc=
+			kqQZS+/Ww913JUoOvq+XM6a32xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			61vywZ8xziZceTAGnG0O8Wxij/wJ7/+sfyFCTsZTAGc=
+			HTv6sgv7F4p0MJLZP7gyeqHbRMfvl+s/QlCt+XPwCnA=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xC8aa1Z5TZNDDsLR0Izmy49v5HE=
+			lnb5C6qxQBWFzb0b0UHJL5s4g2o=
 			</data>
 			<key>hash2</key>
 			<data>
-			JJWouz8boMpfmy4fL2XLyTNPGFCGMi1borU9ydkYeEc=
+			M44RGMBJri5Mwwf8vNH+zHwqQ5d6NN4mhcLXl+wenkc=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -673,22 +658,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			THXpeHNCny7yHj8QFQGG1oebDdg=
+			neRhINGIHVML8Xk6cM/nL+WO4uo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TbstzoUK0YEUBoUKqn/1OfjK1+8u+H15jRrc0Afbzyo=
+			jFTxPFzL4oTNDvApD94e74eDTVZP48tRIrUzbTCNqfI=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DS0o9I06GOYgn+PQCYTUC2scK+Q=
+			cdchcHjzSmEJ/6OhjobLkjLWTQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			rcr9W++M5r59JSUMb6vKYUxwqeEn9SBZEsyMLHqu7qQ=
+			q76OTaRriCTb5RoF9Z0DbNwOYJlHdP50PH8LL1XQvLQ=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/x86_64.swiftdoc</key>
@@ -706,22 +691,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			THXpeHNCny7yHj8QFQGG1oebDdg=
+			neRhINGIHVML8Xk6cM/nL+WO4uo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TbstzoUK0YEUBoUKqn/1OfjK1+8u+H15jRrc0Afbzyo=
+			jFTxPFzL4oTNDvApD94e74eDTVZP48tRIrUzbTCNqfI=
 			</data>
 		</dict>
 		<key>Modules/UnityAds.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DS0o9I06GOYgn+PQCYTUC2scK+Q=
+			cdchcHjzSmEJ/6OhjobLkjLWTQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			rcr9W++M5r59JSUMb6vKYUxwqeEn9SBZEsyMLHqu7qQ=
+			q76OTaRriCTb5RoF9Z0DbNwOYJlHdP50PH8LL1XQvLQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

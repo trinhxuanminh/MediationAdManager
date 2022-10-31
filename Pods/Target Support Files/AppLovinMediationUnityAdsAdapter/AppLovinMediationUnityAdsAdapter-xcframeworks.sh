@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/AppLovinMediationUnityAdsAdapter/AppLovinMediationUnityAdsAdapter-4.4.0.0/AppLovinMediationUnityAdsAdapter.xcframework" "AppLovinMediationUnityAdsAdapter" "library" "ios-arm64_x86_64-simulator" "ios-arm64_armv7"
+install_xcframework "${PODS_ROOT}/AppLovinMediationUnityAdsAdapter/AppLovinMediationUnityAdsAdapter-4.4.1.0/AppLovinMediationUnityAdsAdapter.xcframework" "AppLovinMediationUnityAdsAdapter" "library" "ios-arm64_x86_64-simulator" "ios-arm64_armv7"
 

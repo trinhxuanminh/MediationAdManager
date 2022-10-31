@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/AppLovinMediationFacebookAdapter/AppLovinMediationFacebookAdapter-6.11.2.1/AppLovinMediationFacebookAdapter.xcframework" "AppLovinMediationFacebookAdapter" "library" "ios-arm64_x86_64-simulator" "ios-arm64_armv7"
+install_xcframework "${PODS_ROOT}/AppLovinMediationFacebookAdapter/AppLovinMediationFacebookAdapter-6.12.0.0/AppLovinMediationFacebookAdapter.xcframework" "AppLovinMediationFacebookAdapter" "library" "ios-arm64_x86_64-simulator" "ios-arm64_armv7"
 
