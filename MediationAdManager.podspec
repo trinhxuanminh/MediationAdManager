@@ -15,7 +15,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "11.0"
   spec.swift_version = "5.0"
 
-  spec.source        = { :git => "https://github.com/trinhxuanminh/MediationAdManager.git", :branch => "master", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/trinhxuanminh/MediationAdManager.git", :branch => "main", :tag => "#{spec.version}" }
   spec.source_files  = "MediationAdManager/**/*.{h,m,swift}"
   
   spec.static_framework = true
