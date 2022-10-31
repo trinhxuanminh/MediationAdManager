@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFJ-K0-ZXT">
-                                <rect key="frame" x="95" y="411" width="200" height="35"/>
+                                <rect key="frame" x="95" y="341" width="200" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="KQw-1L-3ph"/>
                                     <constraint firstAttribute="height" constant="35" id="qtE-2V-WaS"/>
@@ -30,12 +30,76 @@
                                     <action selector="onTapShowInterstitial:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dmw-D1-1Uj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kf1-tI-q0N">
+                                <rect key="frame" x="95" y="376" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="LjC-2S-A0O"/>
+                                    <constraint firstAttribute="height" constant="35" id="hde-xm-L13"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Show AppOpen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapShowAppOpen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="enx-ua-qaA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YuV-F3-cEh">
+                                <rect key="frame" x="95" y="411" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="N2t-uN-K2m"/>
+                                    <constraint firstAttribute="width" constant="200" id="SKF-Pm-0dY"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Show Rewarded">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapShowRewarded:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vT9-1e-nng"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCv-6h-L61">
+                                <rect key="frame" x="95" y="446" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="5Kf-xZ-U6g"/>
+                                    <constraint firstAttribute="width" constant="200" id="BK8-bk-sF2"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Show Banner">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapShowBanner:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Umd-6A-Kb1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3l-6I-vDA">
+                                <rect key="frame" x="95" y="481" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="OdP-Pe-ihE"/>
+                                    <constraint firstAttribute="height" constant="35" id="eLt-pZ-TL0"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Show Native">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapShowNative:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSn-tM-hL5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
+                            <constraint firstItem="d3l-6I-vDA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3LI-cP-0hS"/>
+                            <constraint firstItem="YuV-F3-cEh" firstAttribute="top" secondItem="Kf1-tI-q0N" secondAttribute="bottom" id="L3p-aY-zO2"/>
                             <constraint firstItem="TFJ-K0-ZXT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mve-ji-mHn"/>
-                            <constraint firstItem="TFJ-K0-ZXT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="zns-GN-rHN"/>
+                            <constraint firstItem="Kf1-tI-q0N" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eWH-0j-gld"/>
+                            <constraint firstItem="fCv-6h-L61" firstAttribute="top" secondItem="YuV-F3-cEh" secondAttribute="bottom" id="hyd-6R-dNo"/>
+                            <constraint firstItem="Kf1-tI-q0N" firstAttribute="top" secondItem="TFJ-K0-ZXT" secondAttribute="bottom" id="npB-OB-an9"/>
+                            <constraint firstItem="d3l-6I-vDA" firstAttribute="top" secondItem="fCv-6h-L61" secondAttribute="bottom" id="ohd-Mi-PAV"/>
+                            <constraint firstItem="YuV-F3-cEh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pnH-tD-7CR"/>
+                            <constraint firstItem="fCv-6h-L61" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wdT-qi-lG2"/>
+                            <constraint firstItem="TFJ-K0-ZXT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-70" id="zns-GN-rHN"/>
                         </constraints>
                     </view>
                 </viewController>

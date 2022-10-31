@@ -7,22 +7,32 @@
 
 import UIKit
 import AppLovinSDK
+import FBAudienceNetwork
 import MediationAdManager
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
-  
-  
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    FBAdSettings.setDataProcessingOptions([])
+    FBAdSettings.setAdvertiserTrackingEnabled(false)
+    
     ALSdk.shared()!.mediationProvider = "max"
     ALSdk.shared()!.userIdentifier = "USER_ID"
-    
     ALSdk.shared()!.initializeSdk { (configuration: ALSdkConfiguration) in
       // Start loading ads
-      MediationAdManager.shared.setTimeBetween(5.0, ad: .interstitial)
-      MediationAdManager.shared.setID(interstitial: "27f04436f20723da")
+//      MediationAdManager.shared.setTimeBetween(5.0, ad: .interstitial)
+//      if let startDate = "2022-10-20".convertToDate() {
+//        MediationAdManager.shared.showFullFeature(from: startDate)
+//      }
+      MediationAdManager.shared.setID(interstitial: "27f04436f20723da",
+                                      appOpen: "7d8cb2f86a0923e8",
+                                      rewarded: "6c3e65a8837c9810",
+                                      banner: "83ca8456967b9cea",
+                                      smallNative: "7af0e68be0920910",
+                                      mediumNative: "25550a8aec3a140b")
+//      ALSdk.shared()!.showMediationDebugger()
     }
     return true
   }

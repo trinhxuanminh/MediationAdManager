@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960F3CCB28FE501C002FA17E /* AppOpenAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F3CCA28FE501B002FA17E /* AppOpenAd.swift */; };
+		960F3CCE28FE5634002FA17E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F3CCD28FE5634002FA17E /* StringExtension.swift */; };
+		960F3CD028FE663A002FA17E /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F3CCF28FE663A002FA17E /* RewardedAd.swift */; };
 		960F927228F4252900DC412A /* MediationAdManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 960F927128F4252900DC412A /* MediationAdManager.docc */; };
 		960F927328F4252900DC412A /* MediationAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 960F927028F4252900DC412A /* MediationAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		960F928028F4267900DC412A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F927F28F4267900DC412A /* AppDelegate.swift */; };
@@ -15,12 +18,19 @@
 		960F928728F4267900DC412A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F928528F4267900DC412A /* Main.storyboard */; };
 		960F928928F4267A00DC412A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960F928828F4267A00DC412A /* Assets.xcassets */; };
 		960F928C28F4267A00DC412A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F928A28F4267A00DC412A /* LaunchScreen.storyboard */; };
-		960F929228F4273300DC412A /* MediationAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F929128F4273300DC412A /* MediationAdManager.swift */; };
 		96231B7528F69EDD001B9DEE /* Pods_MediationAdManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231B5228F69EDC001B9DEE /* Pods_MediationAdManager.framework */; };
 		967C1BA628FD026A008C52FE /* AppLovinSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96231B4A28F69EDC001B9DEE /* AppLovinSDK.xcframework */; };
 		967C1BA728FD026A008C52FE /* AppLovinSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96231B4A28F69EDC001B9DEE /* AppLovinSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		967C1BB528FD0913008C52FE /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C1BB028FD08DF008C52FE /* InterstitialAd.swift */; };
 		967C1BB628FD09AF008C52FE /* AdProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C1BB428FD08DF008C52FE /* AdProtocol.swift */; };
+		96AAD26629027D9E006C9EA4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAD26529027D9E006C9EA4 /* BaseView.swift */; };
+		96AAD26829027DC4006C9EA4 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAD26729027DC4006C9EA4 /* ViewProtocol.swift */; };
+		96AAD26A29027DFD006C9EA4 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AAD26929027DFD006C9EA4 /* BannerAdView.swift */; };
+		96BE69C2290297E20026C96C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE69C1290297E20026C96C /* Extensions.swift */; };
+		96BE69C629029AE10026C96C /* MediationAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE69C529029AE10026C96C /* MediationAdManager.swift */; };
+		96CE7D4F2907CFC8006767C2 /* MediumNativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE7D4E2907CFC8006767C2 /* MediumNativeAdView.swift */; };
+		96FBEC53290675CD00FA6A25 /* NativeAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBEC52290675CD00FA6A25 /* NativeAd.swift */; };
+		96FBEC552906A82B00FA6A25 /* SmallNativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBEC542906A82B00FA6A25 /* SmallNativeAdView.swift */; };
 		E9A1B425C07E532DF7EBC37F /* Pods_MediationAdManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE65B15FEC370DF411298BF /* Pods_MediationAdManager.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +49,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		960F3CCA28FE501B002FA17E /* AppOpenAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOpenAd.swift; sourceTree = "<group>"; };
+		960F3CCD28FE5634002FA17E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		960F3CCF28FE663A002FA17E /* RewardedAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
 		960F926D28F4252900DC412A /* MediationAdManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediationAdManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		960F927028F4252900DC412A /* MediationAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediationAdManager.h; sourceTree = "<group>"; };
 		960F927128F4252900DC412A /* MediationAdManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MediationAdManager.docc; sourceTree = "<group>"; };
@@ -50,7 +63,6 @@
 		960F928828F4267A00DC412A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960F928B28F4267A00DC412A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		960F928D28F4267A00DC412A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		960F929128F4273300DC412A /* MediationAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationAdManager.swift; sourceTree = "<group>"; };
 		96231B4328F69EDC001B9DEE /* AdColony.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdColony.xcframework; path = Pods/AdColony/AdColony.xcframework; sourceTree = "<group>"; };
 		96231B4428F69EDC001B9DEE /* AppLovinMediationAdColonyAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppLovinMediationAdColonyAdapter.xcframework; path = "Pods/AppLovinMediationAdColonyAdapter/AppLovinMediationAdColonyAdapter-4.9.0.0.0/AppLovinMediationAdColonyAdapter.xcframework"; sourceTree = "<group>"; };
 		96231B4528F69EDC001B9DEE /* AppLovinMediationFacebookAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppLovinMediationFacebookAdapter.xcframework; path = "Pods/AppLovinMediationFacebookAdapter/AppLovinMediationFacebookAdapter-6.11.2.1/AppLovinMediationFacebookAdapter.xcframework"; sourceTree = "<group>"; };
@@ -74,6 +86,14 @@
 		967C1BB028FD08DF008C52FE /* InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
 		967C1BB428FD08DF008C52FE /* AdProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdProtocol.swift; sourceTree = "<group>"; };
 		967C1BB728FD54C9008C52FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		96AAD26529027D9E006C9EA4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		96AAD26729027DC4006C9EA4 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		96AAD26929027DFD006C9EA4 /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		96BE69C1290297E20026C96C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		96BE69C529029AE10026C96C /* MediationAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationAdManager.swift; sourceTree = "<group>"; };
+		96CE7D4E2907CFC8006767C2 /* MediumNativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumNativeAdView.swift; sourceTree = "<group>"; };
+		96FBEC52290675CD00FA6A25 /* NativeAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAd.swift; sourceTree = "<group>"; };
+		96FBEC542906A82B00FA6A25 /* SmallNativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNativeAdView.swift; sourceTree = "<group>"; };
 		EAE65B15FEC370DF411298BF /* Pods_MediationAdManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediationAdManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50CF0D0E2EA0C3A842F3C1C /* Pods-MediationAdManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationAdManager.release.xcconfig"; path = "Target Support Files/Pods-MediationAdManager/Pods-MediationAdManager.release.xcconfig"; sourceTree = "<group>"; };
 		FD4293ECC007971992F55E23 /* Pods-MediationAdManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationAdManager.debug.xcconfig"; path = "Target Support Files/Pods-MediationAdManager/Pods-MediationAdManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +148,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		960F3CCC28FE5623002FA17E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				960F3CCD28FE5634002FA17E /* StringExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		960F926328F4252900DC412A = {
 			isa = PBXGroup;
 			children = (
@@ -154,9 +182,10 @@
 				967C1BB728FD54C9008C52FE /* Info.plist */,
 				960F927028F4252900DC412A /* MediationAdManager.h */,
 				960F927128F4252900DC412A /* MediationAdManager.docc */,
-				960F929128F4273300DC412A /* MediationAdManager.swift */,
-				967C1BB028FD08DF008C52FE /* InterstitialAd.swift */,
-				967C1BB428FD08DF008C52FE /* AdProtocol.swift */,
+				96BE69C529029AE10026C96C /* MediationAdManager.swift */,
+				96BE69C1290297E20026C96C /* Extensions.swift */,
+				96BE69C329029A8D0026C96C /* Ads */,
+				96BE69C429029A990026C96C /* Base */,
 			);
 			path = MediationAdManager;
 			sourceTree = "<group>";
@@ -166,6 +195,7 @@
 			children = (
 				960F928D28F4267A00DC412A /* Info.plist */,
 				960F929328F4277E00DC412A /* App */,
+				960F3CCC28FE5623002FA17E /* Extension */,
 				960F929428F4278D00DC412A /* Scenes */,
 			);
 			path = MediationAdExamples;
@@ -190,6 +220,38 @@
 			);
 			name = Scenes;
 			path = App;
+			sourceTree = "<group>";
+		};
+		96BE69C329029A8D0026C96C /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				967C1BB028FD08DF008C52FE /* InterstitialAd.swift */,
+				960F3CCA28FE501B002FA17E /* AppOpenAd.swift */,
+				960F3CCF28FE663A002FA17E /* RewardedAd.swift */,
+				96FBEC52290675CD00FA6A25 /* NativeAd.swift */,
+				96BE69C729029B9A0026C96C /* View */,
+			);
+			name = Ads;
+			sourceTree = "<group>";
+		};
+		96BE69C429029A990026C96C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				967C1BB428FD08DF008C52FE /* AdProtocol.swift */,
+				96AAD26729027DC4006C9EA4 /* ViewProtocol.swift */,
+				96AAD26529027D9E006C9EA4 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		96BE69C729029B9A0026C96C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96AAD26929027DFD006C9EA4 /* BannerAdView.swift */,
+				96FBEC542906A82B00FA6A25 /* SmallNativeAdView.swift */,
+				96CE7D4E2907CFC8006767C2 /* MediumNativeAdView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D77544F03E299876E7556AE7 /* Pods */ = {
@@ -357,10 +419,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960F3CCB28FE501C002FA17E /* AppOpenAd.swift in Sources */,
 				960F927228F4252900DC412A /* MediationAdManager.docc in Sources */,
+				96AAD26829027DC4006C9EA4 /* ViewProtocol.swift in Sources */,
+				96BE69C629029AE10026C96C /* MediationAdManager.swift in Sources */,
+				96FBEC53290675CD00FA6A25 /* NativeAd.swift in Sources */,
+				960F3CD028FE663A002FA17E /* RewardedAd.swift in Sources */,
 				967C1BB528FD0913008C52FE /* InterstitialAd.swift in Sources */,
+				96BE69C2290297E20026C96C /* Extensions.swift in Sources */,
+				96CE7D4F2907CFC8006767C2 /* MediumNativeAdView.swift in Sources */,
+				96FBEC552906A82B00FA6A25 /* SmallNativeAdView.swift in Sources */,
+				96AAD26629027D9E006C9EA4 /* BaseView.swift in Sources */,
+				96AAD26A29027DFD006C9EA4 /* BannerAdView.swift in Sources */,
 				967C1BB628FD09AF008C52FE /* AdProtocol.swift in Sources */,
-				960F929228F4273300DC412A /* MediationAdManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960F3CCE28FE5634002FA17E /* StringExtension.swift in Sources */,
 				960F928428F4267900DC412A /* ViewController.swift in Sources */,
 				960F928028F4267900DC412A /* AppDelegate.swift in Sources */,
 				960F928228F4267900DC412A /* SceneDelegate.swift in Sources */,
@@ -399,6 +471,7 @@
 		960F927428F4252900DC412A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -462,6 +535,7 @@
 		960F927528F4252900DC412A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -587,6 +661,7 @@
 		960F928F28F4267A00DC412A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,6 +692,7 @@
 		960F929028F4267A00DC412A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,15 +1,15 @@
 //
-//  InterstitialAd.swift
-//  
+//  RewardedAd.swift
+//  MediationAdManager
 //
-//  Created by Trịnh Xuân Minh on 17/10/2022.
+//  Created by Trịnh Xuân Minh on 18/10/2022.
 //
 
 import Foundation
 import AppLovinSDK
 
-final class InterstitialAd: NSObject, AdProtocol {
-  private var interstitialAd: MAInterstitialAd!
+final class RewardedAd: NSObject, AdProtocol {
+  private var rewardedAd: MARewardedAd!
   private var retryAttempt = 0.0
   private var timeBetween = 10.0
   private var presentState = false
@@ -18,20 +18,23 @@ final class InterstitialAd: NSObject, AdProtocol {
   private var didClick: (() -> Void)?
   private var didHide: (() -> Void)?
   private var didFail: (() -> Void)?
+  private var didStartRewardedVideo: (() -> Void)?
+  private var didCompleteRewardedVideo: (() -> Void)?
+  private var didRewardUser: (() -> Void)?
   
   func createAd(_ adUnitID: String) {
-    guard interstitialAd == nil else {
-      print("InterstitialAd: initialization failed - already exist!")
+    guard rewardedAd == nil else {
+      print("RewardedAd: initialization failed - already exist!")
       return
     }
-    self.interstitialAd = MAInterstitialAd(adUnitIdentifier: adUnitID)
-    interstitialAd.delegate = self
+    self.rewardedAd = MARewardedAd.shared(withAdUnitIdentifier: adUnitID)
+    rewardedAd.delegate = self
     load()
   }
   
   func setTimeBetween(_ timeBetween: Double) {
     guard timeBetween > 0.0 else {
-      print("InterstitialAd: set time between failed - invalid time!")
+      print("RewardedAd: set time between failed - invalid time!")
       return
     }
     self.timeBetween = timeBetween
@@ -42,24 +45,24 @@ final class InterstitialAd: NSObject, AdProtocol {
   }
   
   func load() {
-    guard interstitialAd != nil else {
-      print("InterstitialAd: failed to load - not initialized yet!")
+    guard rewardedAd != nil else {
+      print("RewardedAd: failed to load - not initialized yet!")
       return
     }
     guard !isReady() else {
-      print("InterstitialAd: failed to load - ready to show!")
+      print("RewardedAd: failed to load - ready to show!")
       return
     }
-    print("InterstitialAd: start load!")
-    interstitialAd.load()
+    print("RewardedAd: start load!")
+    rewardedAd.load()
   }
   
   func isReady() -> Bool {
-    guard interstitialAd != nil else {
-      print("InterstitialAd: not ready - not initialized yet!")
+    guard rewardedAd != nil else {
+      print("RewardedAd: not ready - not initialized yet!")
       return false
     }
-    return interstitialAd.isReady && wasLoadTimeLessThanNHoursAgo()
+    return rewardedAd.isReady && wasLoadTimeLessThanNHoursAgo()
   }
   
   func show(didDisplay: (() -> Void)?,
@@ -70,30 +73,33 @@ final class InterstitialAd: NSObject, AdProtocol {
             didCompleteRewardedVideo: (() -> Void)?,
             didRewardUser: (() -> Void)?
   ) {
-    guard interstitialAd != nil else {
-      print("InterstitialAd: display failure - not initialized yet!")
+    guard rewardedAd != nil else {
+      print("RewardedAd: display failure - not initialized yet!")
       return
     }
     guard isReady() else {
-      print("InterstitialAd: display failure - not ready to show!")
+      print("RewardedAd: display failure - not ready to show!")
       return
     }
     guard !presentState else {
-      print("InterstitialAd: display failure - ads are being displayed!")
+      print("RewardedAd: display failure - ads are being displayed!")
       return
     }
-    print("InterstitialAd: requested to show!")
+    print("RewardedAd: requested to show!")
     self.didDisplay = didDisplay
     self.didHide = didHide
     self.didClick = didClick
     self.didFail = didFail
-    interstitialAd.show()
+    self.didStartRewardedVideo = didStartRewardedVideo
+    self.didCompleteRewardedVideo = didCompleteRewardedVideo
+    self.didRewardUser = didRewardUser
+    rewardedAd.show()
   }
 }
 
-extension InterstitialAd: MAAdDelegate {
+extension RewardedAd: MARewardedAdDelegate {
   func didLoad(_ ad: MAAd) {
-    print("InterstitalAd: did load!")
+    print("RewardedAd: did load!")
     self.retryAttempt = 0
   }
   
@@ -101,18 +107,18 @@ extension InterstitialAd: MAAdDelegate {
     retryAttempt += 1
     let delaySec = pow(2.0, min(5.0, retryAttempt))
     
-    print("InterstitalAd: did fail to load. Reload after \(delaySec)s!")
+    print("RewardedAd: did fail to load. Reload after \(delaySec)s!")
     DispatchQueue.global().asyncAfter(deadline: .now() + delaySec, execute: load)
   }
   
   func didDisplay(_ ad: MAAd) {
-    print("InterstitalAd: did display!")
+    print("RewardedAd: did display!")
     self.presentState = true
     didDisplay?()
   }
   
   func didHide(_ ad: MAAd) {
-    print("InterstitalAd: did hide!")
+    print("RewardedAd: did hide!")
     self.presentState = false
     self.lastTimeDisplay = Date()
     didHide?()
@@ -120,18 +126,33 @@ extension InterstitialAd: MAAdDelegate {
   }
   
   func didClick(_ ad: MAAd) {
-    print("InterstitalAd: did click!")
+    print("RewardedAd: did click!")
     didClick?()
   }
   
   func didFail(toDisplay ad: MAAd, withError error: MAError) {
-    print("InterstitalAd: did fail to show content!")
+    print("RewardedAd: did fail to show content!")
     didFail?()
     load()
   }
+  
+  func didStartRewardedVideo(for ad: MAAd) {
+    print("RewardedAd: did start video!")
+    didStartRewardedVideo?()
+  }
+  
+  func didCompleteRewardedVideo(for ad: MAAd) {
+    print("RewardedAd: did complete video!")
+    didCompleteRewardedVideo?()
+  }
+  
+  func didRewardUser(for ad: MAAd, with reward: MAReward) {
+    print("RewardedAd: did reward user!")
+    didRewardUser?()
+  }
 }
 
-extension InterstitialAd {
+extension RewardedAd {
   private func wasLoadTimeLessThanNHoursAgo() -> Bool {
     let now = Date()
     let timeIntervalBetweenNowAndLoadTime = now.timeIntervalSince(lastTimeDisplay)

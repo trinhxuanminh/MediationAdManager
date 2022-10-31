@@ -6,6 +6,8 @@ use_frameworks! :linkage => :static
 inhibit_all_warnings!
 # Pods
 target 'MediationAdManager' do
+	pod 'SnapKit', '5.6.0'
+	pod 'SkeletonView'
     	pod 'AppLovinSDK', '11.5.1'
 	pod 'AppLovinMediationAdColonyAdapter', '4.9.0.0.0'
    	pod 'AppLovinMediationGoogleAdapter', '9.11.0.2'

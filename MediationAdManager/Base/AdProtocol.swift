@@ -12,17 +12,13 @@ protocol AdProtocol {
   func isDisplay() -> Bool
   func load()
   func isReady() -> Bool
+  func setTimeBetween(_ timeBetween: Double)
   func show(didDisplay: (() -> Void)?,
             didHide: (() -> Void)?,
             didClick: (() -> Void)?,
-            didFail: (() -> Void)?)
-}
-
-protocol ReuseAdProtocol: AdProtocol {
-  func setTimeBetween(_ timeBetween: Double)
-}
-
-
-protocol OnceAdProtocol: AdProtocol {
-  func stopLoading()
+            didFail: (() -> Void)?,
+            didStartRewardedVideo: (() -> Void)?,
+            didCompleteRewardedVideo: (() -> Void)?,
+            didRewardUser: (() -> Void)?
+  )
 }
