@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bjD-Hi-FZw">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -86,6 +87,20 @@
                                     <action selector="onTapShowNative:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSn-tM-hL5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LO-xF-9Ys">
+                                <rect key="frame" x="95" y="526" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Leg-Q6-IZM"/>
+                                    <constraint firstAttribute="width" constant="200" id="beG-VE-Dc6"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Tap to NativeCV">
+                                    <color key="titleColor" systemColor="systemIndigoColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTapToNativeCV:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7qR-ry-ECc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
@@ -93,22 +108,43 @@
                             <constraint firstItem="d3l-6I-vDA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="3LI-cP-0hS"/>
                             <constraint firstItem="YuV-F3-cEh" firstAttribute="top" secondItem="Kf1-tI-q0N" secondAttribute="bottom" id="L3p-aY-zO2"/>
                             <constraint firstItem="TFJ-K0-ZXT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Mve-ji-mHn"/>
+                            <constraint firstItem="0LO-xF-9Ys" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="WXh-XC-HFk"/>
                             <constraint firstItem="Kf1-tI-q0N" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eWH-0j-gld"/>
                             <constraint firstItem="fCv-6h-L61" firstAttribute="top" secondItem="YuV-F3-cEh" secondAttribute="bottom" id="hyd-6R-dNo"/>
                             <constraint firstItem="Kf1-tI-q0N" firstAttribute="top" secondItem="TFJ-K0-ZXT" secondAttribute="bottom" id="npB-OB-an9"/>
                             <constraint firstItem="d3l-6I-vDA" firstAttribute="top" secondItem="fCv-6h-L61" secondAttribute="bottom" id="ohd-Mi-PAV"/>
                             <constraint firstItem="YuV-F3-cEh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pnH-tD-7CR"/>
+                            <constraint firstItem="0LO-xF-9Ys" firstAttribute="top" secondItem="d3l-6I-vDA" secondAttribute="bottom" constant="10" id="qrD-cb-1wY"/>
                             <constraint firstItem="fCv-6h-L61" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wdT-qi-lG2"/>
                             <constraint firstItem="TFJ-K0-ZXT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-70" id="zns-GN-rHN"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="rMO-c0-dfE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="-2"/>
+            <point key="canvasLocation" x="234" y="6"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B98-4T-Vn3">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="bjD-Hi-FZw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XEf-w3-HLw">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ube-Xc-CiQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAU-gz-cio" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-689" y="6"/>
         </scene>
     </scenes>
     <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

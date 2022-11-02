@@ -8,22 +8,41 @@
 import UIKit
 import AppLovinSDK
 import SnapKit
+import NVActivityIndicatorView
 
 @IBDesignable public class BannerAdView: BaseView {
+  
+  private lazy var loadingView: NVActivityIndicatorView = {
+    let loadingView = NVActivityIndicatorView(frame: .zero)
+    loadingView.type = .ballPulse
+    loadingView.padding = 30.0
+    return loadingView
+  }()
+  
   private var bannerAdView: MAAdView?
-  private var didFirstLoadAd = false
   private var retryAttempt = 0.0
+  private var didLoadAd = false
+  
+  public override func removeFromSuperview() {
+    bannerAdView = nil
+    super.removeFromSuperview()
+  }
   
   override func addComponents() {
+    addSubview(loadingView)
     guard let bannerID = MediationAdManager.shared.getBannerID() else {
       print("BannerAd: failed to load - not initialized yet!")
       return
     }
     self.bannerAdView = MAAdView(adUnitIdentifier: bannerID)
-    self.addSubview(bannerAdView!)
+    addSubview(bannerAdView!)
   }
   
   override func setConstraints() {
+    loadingView.snp.makeConstraints { make in
+      make.center.equalToSuperview()
+      make.width.height.equalTo(20.0)
+    }
     bannerAdView?.snp.makeConstraints { make in
       make.edges.equalToSuperview()
     }
@@ -33,17 +52,44 @@ import SnapKit
     bannerAdView?.delegate = self
   }
   
+  override func setColor() {
+    loadingView.color = UIColor(rgb: 0x000000)
+  }
+  
   public override func draw(_ rect: CGRect) {
     super.draw(rect)
-    guard !didFirstLoadAd else {
+    guard !didLoadAd else {
       return
     }
-    self.didFirstLoadAd = true
+    self.didLoadAd = true
     load()
+    loadingView.startAnimating()
   }
   
   public class func adHeightMinimum() -> CGFloat {
     return UIDevice.current.userInterfaceIdiom == .phone ? 50.0 : 90.0
+  }
+  
+  public func setLoading(type: NVActivityIndicatorType? = nil,
+                         color: UIColor? = nil,
+                         padding: CGFloat? = nil
+  ) {
+    let isAnimating = loadingView.isAnimating
+    if isAnimating {
+      loadingView.stopAnimating()
+    }
+    if let type = type {
+      loadingView.type = type
+    }
+    if let color = color {
+      loadingView.color = color
+    }
+    if let padding = padding {
+      loadingView.padding = padding
+    }
+    if isAnimating {
+      loadingView.startAnimating()
+    }
   }
 }
 
@@ -59,6 +105,7 @@ extension BannerAdView: MAAdViewAdDelegate {
   public func didLoad(_ ad: MAAd) {
     print("BannerAd: did load!")
     self.retryAttempt = 0
+    loadingView.stopAnimating()
   }
   
   public func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: String, withError error: MAError) {

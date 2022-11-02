@@ -17,11 +17,13 @@ class NativeAd: NSObject {
   private var binding: ((MANativeAdView?) -> Void)?
   
   init(adUnitID: String?,
-       binding: ((MANativeAdView?) -> Void)?
+       binding: ((MANativeAdView?) -> Void)?,
+       into typeAdView: MANativeAdView? = nil
   ) {
     super.init()
     self.adUnitID = adUnitID
     self.binding = binding
+    self.adView = typeAdView
     createAdLoader()
   }
   
@@ -32,6 +34,7 @@ class NativeAd: NSObject {
     }
     self.adLoader = MANativeAdLoader(adUnitIdentifier: adUnitID)
     adLoader?.nativeAdDelegate = self
+    adLoader?.revenueDelegate = self
     load()
   }
   
@@ -41,7 +44,11 @@ class NativeAd: NSObject {
       return
     }
     print("NativeAd: start load!")
-    adLoader?.loadAd()
+    guard adView != nil else {
+      adLoader?.loadAd()
+      return
+    }
+    adLoader?.loadAd(into: adView)
   }
 }
 
@@ -74,5 +81,11 @@ extension NativeAd: MANativeAdDelegate {
   
   func didClickNativeAd(_ ad: MAAd) {
     print("NativeAd: did click!")
+  }
+}
+
+extension NativeAd: MAAdRevenueDelegate {
+  func didPayRevenue(for ad: MAAd) {
+    print("NativeAd: did pay revenue!")
   }
 }

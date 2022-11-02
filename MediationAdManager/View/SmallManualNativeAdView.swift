@@ -1,20 +1,34 @@
 //
-//  MediumNativeAdView.swift
+//  SmallManualNativeAdView.swift
 //  MediationAdManager
 //
-//  Created by Trịnh Xuân Minh on 25/10/2022.
+//  Created by Trịnh Xuân Minh on 31/10/2022.
 //
 
-import Foundation
-import SnapKit
+import UIKit
+import AppLovinSDK
 import NVActivityIndicatorView
 
-@IBDesignable public class MediumNativeAdView: BaseView {
+@IBDesignable public class SmallManualNativeAdView: BaseView {
+  
   private lazy var loadingView: NVActivityIndicatorView = {
     let loadingView = NVActivityIndicatorView(frame: .zero)
     loadingView.type = .ballPulse
     loadingView.padding = 30.0
     return loadingView
+  }()
+  private lazy var nativeAdView: MANativeAdView = {
+    let nativeAdViewNib = UINib(nibName: "SmallManualNativeAdView", bundle: Bundle(for: Self.self))
+    let nativeAdView = nativeAdViewNib.instantiate(withOwner: nil, options: nil).first as! MANativeAdView
+    
+    let adViewBinder = MANativeAdViewBinder.init(builderBlock: { (builder) in
+      builder.iconImageViewTag = 101
+      builder.titleLabelTag = 103
+      builder.advertiserLabelTag = 104
+      builder.callToActionButtonTag = 105
+    })
+    nativeAdView.bindViews(with: adViewBinder)
+    return nativeAdView
   }()
   
   private var nativeAd: NativeAd?
@@ -37,7 +51,7 @@ import NVActivityIndicatorView
   
   override func setProperties() {
     loadingView.startAnimating()
-    self.nativeAd = NativeAd(adUnitID: MediationAdManager.shared.getMediumNativeID(),
+    self.nativeAd = NativeAd(adUnitID: MediationAdManager.shared.getManualNativeID(),
                              binding: { [weak self] nativeAdView in
       guard let self = self, let nativeAdView = nativeAdView else {
         return
@@ -47,15 +61,34 @@ import NVActivityIndicatorView
         make.edges.equalToSuperview()
       }
       self.loadingView.stopAnimating()
-    })
+    }, into: nativeAdView)
   }
   
   override func setColor() {
     loadingView.color = UIColor(rgb: 0x000000)
   }
   
-  public class func adHeightMinimum(width: CGFloat) -> CGFloat {
-    return width / 16.0 * 9.0 + 160.0
+  public class func adHeightMinimum() -> CGFloat {
+    return 120.0
+  }
+  
+  public func setColor(titleText: UIColor? = nil,
+                       advertiserText: UIColor? = nil,
+                       callToActionText: UIColor? = nil,
+                       callToActionBackground: UIColor? = nil
+  ) {
+    if let titleText = titleText {
+      nativeAdView.titleLabel?.textColor = titleText
+    }
+    if let advertiserText = advertiserText {
+      nativeAdView.advertiserLabel?.textColor = advertiserText
+    }
+    if let callToActionText = callToActionText {
+      nativeAdView.callToActionButton?.setTitleColor(callToActionText, for: .normal)
+    }
+    if let callToActionBackground = callToActionBackground {
+      nativeAdView.callToActionButton?.backgroundColor = callToActionBackground
+    }
   }
   
   public func setLoading(type: NVActivityIndicatorType? = nil,

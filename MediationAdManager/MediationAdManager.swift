@@ -11,7 +11,6 @@ import Foundation
 public struct MediationAdManager {
   
   public static let bundle = Bundle.main
-  
   public static var shared = MediationAdManager()
   
   public enum AdType: Int {

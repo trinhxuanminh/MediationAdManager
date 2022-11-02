@@ -24,3 +24,13 @@ extension UIColor {
     )
   }
 }
+
+extension UICollectionView {
+  public func register(of type: AnyClass) {
+      self.register(type, forCellWithReuseIdentifier: String(describing: type.self))
+  }
+
+  public func dequeue<T>(ofType type: T.Type, indexPath: IndexPath) -> T {
+    return dequeueReusableCell(withReuseIdentifier: String(describing: T.self), for: indexPath) as! T
+  }
+}
