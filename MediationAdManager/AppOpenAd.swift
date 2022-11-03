@@ -101,7 +101,7 @@ extension AppOpenAd: MAAdDelegate {
     retryAttempt += 1
     let delaySec = pow(2.0, min(5.0, retryAttempt))
     
-    print("AppOpenAd: did fail to load. Reload after \(delaySec)s!")
+    print("AppOpenAd: did fail to load. Reload after \(delaySec)s! (\(error))")
     DispatchQueue.global().asyncAfter(deadline: .now() + delaySec, execute: load)
   }
   

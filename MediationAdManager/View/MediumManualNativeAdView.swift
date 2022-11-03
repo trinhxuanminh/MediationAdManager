@@ -58,11 +58,13 @@ import NVActivityIndicatorView
       guard let self = self, let nativeAdView = nativeAdView else {
         return
       }
-      self.addSubview(nativeAdView)
-      nativeAdView.snp.makeConstraints { make in
-        make.edges.equalToSuperview()
+      DispatchQueue.main.async {
+        self.addSubview(nativeAdView)
+        nativeAdView.snp.makeConstraints { make in
+          make.edges.equalToSuperview()
+        }
+        self.loadingView.stopAnimating()
       }
-      self.loadingView.stopAnimating()
     }, into: nativeAdView)
   }
   

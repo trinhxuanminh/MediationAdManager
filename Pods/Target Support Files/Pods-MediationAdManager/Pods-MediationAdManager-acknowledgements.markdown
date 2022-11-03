@@ -32,15 +32,6 @@ The AppLovin MAX SDK is available under a commercial license (https://www.applov
 
 
 
-## AppLovinMediationIronSourceAdapter
-
-
-Copyright 2022 AppLovin Corp. All rights reserved.
-
-The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
-
-
-
 ## AppLovinMediationUnityAdsAdapter
 
 
@@ -351,10 +342,6 @@ similar to disable codesignature checks.
 More information at <a href="http://landonf.org/2009/02/index.html">Landon
 Fuller's blog</a>
 
-
-## IronSourceSDK
-
-https://platform.ironsrc.com/partners/terms-and-conditions-new-user
 
 ## NVActivityIndicatorView
 

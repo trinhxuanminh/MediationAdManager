@@ -112,7 +112,7 @@ extension BannerAdView: MAAdViewAdDelegate {
     retryAttempt += 1
     let delaySec = pow(2.0, min(5.0, retryAttempt))
     
-    print("BannerAd: did fail to load. Reload after \(delaySec)s!")
+    print("BannerAd: did fail to load. Reload after \(delaySec)s! (\(error))")
     DispatchQueue.global().asyncAfter(deadline: .now() + delaySec, execute: load)
   }
   

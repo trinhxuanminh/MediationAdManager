@@ -6,12 +6,9 @@ PODS:
   - AppLovinMediationFacebookAdapter (6.12.0.0):
     - AppLovinSDK
     - FBAudienceNetwork (= 6.12.0)
-  - AppLovinMediationGoogleAdapter (9.11.0.5):
+  - AppLovinMediationGoogleAdapter (9.11.0.6):
     - AppLovinSDK
     - Google-Mobile-Ads-SDK (= 9.11.0.1)
-  - AppLovinMediationIronSourceAdapter (7.2.5.1.0):
-    - AppLovinSDK
-    - IronSourceSDK (= 7.2.5.1)
   - AppLovinMediationUnityAdsAdapter (4.4.1.0):
     - AppLovinSDK
     - UnityAds (= 4.4.1)
@@ -61,7 +58,6 @@ PODS:
   - "GoogleUtilities/NSData+zlib (7.8.0)"
   - GoogleUtilities/Reachability (7.8.0):
     - GoogleUtilities/Logger
-  - IronSourceSDK (7.2.5.1)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
@@ -78,8 +74,7 @@ PODS:
 DEPENDENCIES:
   - AppLovinMediationAdColonyAdapter (= 4.9.0.0.2)
   - AppLovinMediationFacebookAdapter (= 6.12.0.0)
-  - AppLovinMediationGoogleAdapter (= 9.11.0.5)
-  - AppLovinMediationIronSourceAdapter (= 7.2.5.1.0)
+  - AppLovinMediationGoogleAdapter (= 9.11.0.6)
   - AppLovinMediationUnityAdsAdapter (= 4.4.1.0)
   - AppLovinMediationVungleAdapter (= 6.12.0.3)
   - AppLovinSDK (= 11.5.3)
@@ -92,7 +87,6 @@ SPEC REPOS:
     - AppLovinMediationAdColonyAdapter
     - AppLovinMediationFacebookAdapter
     - AppLovinMediationGoogleAdapter
-    - AppLovinMediationIronSourceAdapter
     - AppLovinMediationUnityAdsAdapter
     - AppLovinMediationVungleAdapter
     - AppLovinSDK
@@ -101,7 +95,6 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUserMessagingPlatform
     - GoogleUtilities
-    - IronSourceSDK
     - nanopb
     - NVActivityIndicatorView
     - PromisesObjC
@@ -113,8 +106,7 @@ SPEC CHECKSUMS:
   AdColony: 4f3738dc633d7aaa8ec60729df973076cc8e97ed
   AppLovinMediationAdColonyAdapter: c8a0613a361cabae20da494d43a43ab6a4e403f5
   AppLovinMediationFacebookAdapter: 5c119c9bc4f4c67e10964c0297aeddb07861efc4
-  AppLovinMediationGoogleAdapter: bf67b56879b951cb880c91c570d7aeb7c39dc735
-  AppLovinMediationIronSourceAdapter: f54e4088e58505ec7cf74616e98c6ff05ee59619
+  AppLovinMediationGoogleAdapter: 70911ba480a5f8024f8dd4df8140602237d61d97
   AppLovinMediationUnityAdsAdapter: 2bbaa938b039a5d8bd60156ee21a82c7fcaa5efe
   AppLovinMediationVungleAdapter: 4c2878408895d4d5dbbd5743ffb92d7a6a07ec9b
   AppLovinSDK: 6b10288343b15b31f7037ecd7aa630d6ea117585
@@ -123,7 +115,6 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: e490e248af3da95afe8fa8e7baac232dc8d020b7
   GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
-  IronSourceSDK: 45212c7ec28cc0bbda13255e8dc65f7ed7aa1370
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
@@ -131,6 +122,6 @@ SPEC CHECKSUMS:
   UnityAds: 1af6c4fdd7030c2593c58f520504e167561175ab
   VungleSDK-iOS: 1936f966dd5828d171fc514343741480bf219496
 
-PODFILE CHECKSUM: 66d7c9d8a0df595a8188bd1791757682f9d92997
+PODFILE CHECKSUM: 021bb52af2d4ea599f553e01f57310f7c451a642
 
 COCOAPODS: 1.11.3

@@ -15,8 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
-    FBAdSettings.setDataProcessingOptions([])
     FBAdSettings.setAdvertiserTrackingEnabled(false)
+    FBAdSettings.setDataProcessingOptions(["LDU"], country: 1, state: 1000)
     
     ALSdk.shared()!.mediationProvider = "max"
     ALSdk.shared()!.userIdentifier = "USER_ID"

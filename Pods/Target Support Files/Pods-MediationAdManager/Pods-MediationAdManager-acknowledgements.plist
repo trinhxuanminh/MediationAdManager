@@ -78,21 +78,6 @@ The AppLovin MAX SDK is available under a commercial license (https://www.applov
 			<key>License</key>
 			<string>Commercial License</string>
 			<key>Title</key>
-			<string>AppLovinMediationIronSourceAdapter</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
-Copyright 2022 AppLovin Corp. All rights reserved.
-
-The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
-
-</string>
-			<key>License</key>
-			<string>Commercial License</string>
-			<key>Title</key>
 			<string>AppLovinMediationUnityAdsAdapter</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
@@ -438,16 +423,6 @@ Fuller's blog&lt;/a&gt;
 			<string>Apache</string>
 			<key>Title</key>
 			<string>GoogleUtilities</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>https://platform.ironsrc.com/partners/terms-and-conditions-new-user</string>
-			<key>License</key>
-			<string>Commercial</string>
-			<key>Title</key>
-			<string>IronSourceSDK</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
