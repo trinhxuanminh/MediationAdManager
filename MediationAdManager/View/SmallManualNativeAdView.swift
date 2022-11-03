@@ -18,7 +18,7 @@ import NVActivityIndicatorView
     return loadingView
   }()
   private lazy var nativeAdView: MANativeAdView = {
-    let nativeAdViewNib = UINib(nibName: "SmallManualNativeAdView", bundle: Bundle(for: Self.self))
+    let nativeAdViewNib = UINib(nibName: "SmallManualNativeAdView", bundle: Bundle(identifier: "com.MinhTX.lib.MediationAdManager"))
     let nativeAdView = nativeAdViewNib.instantiate(withOwner: nil, options: nil).first as! MANativeAdView
     
     let adViewBinder = MANativeAdViewBinder.init(builderBlock: { (builder) in
