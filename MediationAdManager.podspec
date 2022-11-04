@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MediationAdManager"
-  spec.version      = "0.0.15"
+  spec.version      = "0.0.16"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
