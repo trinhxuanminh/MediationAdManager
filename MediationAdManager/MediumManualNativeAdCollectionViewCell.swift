@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import NVActivityIndicatorView
 
 public class MediumManualNativeAdCollectionViewCell: BaseCollectionViewCell {
   
@@ -30,15 +31,39 @@ public class MediumManualNativeAdCollectionViewCell: BaseCollectionViewCell {
   }
   
   public func setColor(titleText: UIColor? = nil,
+                       adText: UIColor? = nil,
                        advertiserText: UIColor? = nil,
                        bodyText: UIColor? = nil,
                        callToActionText: UIColor? = nil,
                        callToActionBackground: UIColor? = nil
   ) {
     nativeAdView.setColor(titleText: titleText,
+                          adText: adText,
                           advertiserText: advertiserText,
                           bodyText: bodyText,
                           callToActionText: callToActionText,
                           callToActionBackground: callToActionBackground)
+  }
+  
+  public func setFont(title: UIFont? = nil,
+                      ad: UIFont? = nil,
+                      advertiser: UIFont? = nil,
+                      body: UIFont? = nil,
+                      callToAction: UIFont? = nil)
+  {
+    nativeAdView.setFont(title: title,
+                         ad: ad,
+                         advertiser: advertiser,
+                         body: body,
+                         callToAction: callToAction)
+  }
+  
+  public func setLoading(type: NVActivityIndicatorType? = nil,
+                         color: UIColor? = nil,
+                         padding: CGFloat? = nil
+  ) {
+    nativeAdView.setLoading(type: type,
+                            color: color,
+                            padding: padding)
   }
 }

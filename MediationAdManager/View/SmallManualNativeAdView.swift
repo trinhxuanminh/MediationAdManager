@@ -17,15 +17,13 @@ import NVActivityIndicatorView
     loadingView.padding = 30.0
     return loadingView
   }()
-  private lazy var nativeAdView: MANativeAdView = {
-    let nativeAdViewNib = UINib(nibName: "SmallManualNativeAdView", bundle: Bundle(identifier: "com.MinhTX.lib.MediationAdManager"))
-    let nativeAdView = nativeAdViewNib.instantiate(withOwner: nil, options: nil).first as! MANativeAdView
-    
+  private lazy var nativeAdView: SmallNativeAdViewBinder = {
+    let nativeAdView = SmallNativeAdViewBinder()
     let adViewBinder = MANativeAdViewBinder.init(builderBlock: { (builder) in
       builder.iconImageViewTag = 101
-      builder.titleLabelTag = 103
-      builder.advertiserLabelTag = 104
-      builder.callToActionButtonTag = 105
+      builder.titleLabelTag = 102
+      builder.advertiserLabelTag = 103
+      builder.callToActionButtonTag = 104
     })
     nativeAdView.bindViews(with: adViewBinder)
     return nativeAdView
@@ -75,22 +73,27 @@ import NVActivityIndicatorView
   }
   
   public func setColor(titleText: UIColor? = nil,
+                       adText: UIColor? = nil,
                        advertiserText: UIColor? = nil,
                        callToActionText: UIColor? = nil,
                        callToActionBackground: UIColor? = nil
   ) {
-    if let titleText = titleText {
-      nativeAdView.titleLabel?.textColor = titleText
-    }
-    if let advertiserText = advertiserText {
-      nativeAdView.advertiserLabel?.textColor = advertiserText
-    }
-    if let callToActionText = callToActionText {
-      nativeAdView.callToActionButton?.setTitleColor(callToActionText, for: .normal)
-    }
-    if let callToActionBackground = callToActionBackground {
-      nativeAdView.callToActionButton?.backgroundColor = callToActionBackground
-    }
+    nativeAdView.setColor(titleText: titleText,
+                          adText: adText,
+                          advertiserText: advertiserText,
+                          callToActionText: callToActionText,
+                          callToActionBackground: callToActionBackground)
+  }
+  
+  public func setFont(title: UIFont? = nil,
+                      ad: UIFont? = nil,
+                      advertiser: UIFont? = nil,
+                      callToAction: UIFont? = nil)
+  {
+    nativeAdView.setFont(title: title,
+                         ad: ad,
+                         advertiser: advertiser,
+                         callToAction: callToAction)
   }
   
   public func setLoading(type: NVActivityIndicatorType? = nil,

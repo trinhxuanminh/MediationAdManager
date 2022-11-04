@@ -7,6 +7,7 @@
 
 import UIKit
 import SnapKit
+import NVActivityIndicatorView
 
 public class SmallNativeAdCollectionViewCell: BaseCollectionViewCell {
   
@@ -27,5 +28,14 @@ public class SmallNativeAdCollectionViewCell: BaseCollectionViewCell {
   
   public class func adHeightMinimum() -> CGFloat {
     return 120.0
+  }
+  
+  public func setLoading(type: NVActivityIndicatorType? = nil,
+                         color: UIColor? = nil,
+                         padding: CGFloat? = nil
+  ) {
+    nativeAdView.setLoading(type: type,
+                            color: color,
+                            padding: padding)
   }
 }

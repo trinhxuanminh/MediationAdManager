@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                       smallNative: "7af0e68be0920910",
                                       mediumNative: "25550a8aec3a140b",
                                       manualNative: "23df2abcf799b105")
-      ALSdk.shared()!.showMediationDebugger()
+//      ALSdk.shared()!.showMediationDebugger()
     }
     return true
   }

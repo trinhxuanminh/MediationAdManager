@@ -18,9 +18,8 @@
 		960F928728F4267900DC412A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F928528F4267900DC412A /* Main.storyboard */; };
 		960F928928F4267A00DC412A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960F928828F4267A00DC412A /* Assets.xcassets */; };
 		960F928C28F4267A00DC412A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960F928A28F4267A00DC412A /* LaunchScreen.storyboard */; };
-		9670507F290F89E000A21FB2 /* SmallManualNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9670507E290F89E000A21FB2 /* SmallManualNativeAdView.xib */; };
+		966D13472913C03F002F8BF2 /* SmallNativeAdViewBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D13462913C03F002F8BF2 /* SmallNativeAdViewBinder.swift */; };
 		96705081290F8AA900A21FB2 /* SmallManualNativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96705080290F8AA900A21FB2 /* SmallManualNativeAdView.swift */; };
-		96705084290FB46200A21FB2 /* MediumManualNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96705083290FB46200A21FB2 /* MediumManualNativeAdView.xib */; };
 		96705086290FBAA900A21FB2 /* MediumManualNativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96705085290FBAA900A21FB2 /* MediumManualNativeAdView.swift */; };
 		967C1BB528FD0913008C52FE /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C1BB028FD08DF008C52FE /* InterstitialAd.swift */; };
 		967C1BB628FD09AF008C52FE /* AdProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967C1BB428FD08DF008C52FE /* AdProtocol.swift */; };
@@ -35,6 +34,7 @@
 		96AFC6002910C0A300E92E34 /* NativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AFC5FE2910C0A300E92E34 /* NativeViewController.xib */; };
 		96BE69C2290297E20026C96C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE69C1290297E20026C96C /* Extensions.swift */; };
 		96BE69C629029AE10026C96C /* MediationAdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE69C529029AE10026C96C /* MediationAdManager.swift */; };
+		96CAF27F291505BC00267482 /* MediumNativeAdViewBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CAF27E291505BC00267482 /* MediumNativeAdViewBinder.swift */; };
 		96CE7D4F2907CFC8006767C2 /* MediumNativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE7D4E2907CFC8006767C2 /* MediumNativeAdView.swift */; };
 		96FAED8E290FE25C007D240E /* SmallNativeAdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAED8D290FE25C007D240E /* SmallNativeAdCollectionViewCell.swift */; };
 		96FBEC53290675CD00FA6A25 /* NativeAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBEC52290675CD00FA6A25 /* NativeAd.swift */; };
@@ -79,9 +79,8 @@
 		96231B5428F69EDC001B9DEE /* UnityAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UnityAds.xcframework; path = Pods/UnityAds/UnityAds.xcframework; sourceTree = "<group>"; };
 		96231B5528F69EDC001B9DEE /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Pods/GoogleUserMessagingPlatform/Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		96231B5628F69EDC001B9DEE /* VungleSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VungleSDK.xcframework; path = "Pods/VungleSDK-iOS/VungleSDK.xcframework"; sourceTree = "<group>"; };
-		9670507E290F89E000A21FB2 /* SmallManualNativeAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmallManualNativeAdView.xib; sourceTree = "<group>"; };
+		966D13462913C03F002F8BF2 /* SmallNativeAdViewBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNativeAdViewBinder.swift; sourceTree = "<group>"; };
 		96705080290F8AA900A21FB2 /* SmallManualNativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallManualNativeAdView.swift; sourceTree = "<group>"; };
-		96705083290FB46200A21FB2 /* MediumManualNativeAdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MediumManualNativeAdView.xib; sourceTree = "<group>"; };
 		96705085290FBAA900A21FB2 /* MediumManualNativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumManualNativeAdView.swift; sourceTree = "<group>"; };
 		967C1BB028FD08DF008C52FE /* InterstitialAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
 		967C1BB428FD08DF008C52FE /* AdProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdProtocol.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		96AFC5FE2910C0A300E92E34 /* NativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeViewController.xib; sourceTree = "<group>"; };
 		96BE69C1290297E20026C96C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		96BE69C529029AE10026C96C /* MediationAdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediationAdManager.swift; sourceTree = "<group>"; };
+		96CAF27E291505BC00267482 /* MediumNativeAdViewBinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumNativeAdViewBinder.swift; sourceTree = "<group>"; };
 		96CE7D4E2907CFC8006767C2 /* MediumNativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumNativeAdView.swift; sourceTree = "<group>"; };
 		96F05C6D29125037009ECA12 /* libNVActivityIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libNVActivityIndicatorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FAED8D290FE25C007D240E /* SmallNativeAdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNativeAdCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -229,15 +229,6 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		96705082290F8B0100A21FB2 /* Xibs */ = {
-			isa = PBXGroup;
-			children = (
-				9670507E290F89E000A21FB2 /* SmallManualNativeAdView.xib */,
-				96705083290FB46200A21FB2 /* MediumManualNativeAdView.xib */,
-			);
-			path = Xibs;
-			sourceTree = "<group>";
-		};
 		96BE69C329029A8D0026C96C /* Ads */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,7 +254,7 @@
 		96BE69C729029B9A0026C96C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				96705082290F8B0100A21FB2 /* Xibs */,
+				96CAF27D2914F64600267482 /* Binder */,
 				96AAD26929027DFD006C9EA4 /* BannerAdView.swift */,
 				96FBEC542906A82B00FA6A25 /* SmallNativeAdView.swift */,
 				96CE7D4E2907CFC8006767C2 /* MediumNativeAdView.swift */,
@@ -271,6 +262,15 @@
 				96705085290FBAA900A21FB2 /* MediumManualNativeAdView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		96CAF27D2914F64600267482 /* Binder */ = {
+			isa = PBXGroup;
+			children = (
+				966D13462913C03F002F8BF2 /* SmallNativeAdViewBinder.swift */,
+				96CAF27E291505BC00267482 /* MediumNativeAdViewBinder.swift */,
+			);
+			name = Binder;
 			sourceTree = "<group>";
 		};
 		96FAED8C290FE230007D240E /* CollectionViewCell */ = {
@@ -386,8 +386,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9670507F290F89E000A21FB2 /* SmallManualNativeAdView.xib in Resources */,
-				96705084290FB46200A21FB2 /* MediumManualNativeAdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +459,7 @@
 				960F3CD028FE663A002FA17E /* RewardedAd.swift in Sources */,
 				96AFC5F62910BC4400E92E34 /* BaseCollectionViewCell.swift in Sources */,
 				96AFC5FC2910BF5800E92E34 /* MediumManualNativeAdCollectionViewCell.swift in Sources */,
+				966D13472913C03F002F8BF2 /* SmallNativeAdViewBinder.swift in Sources */,
 				967C1BB528FD0913008C52FE /* InterstitialAd.swift in Sources */,
 				96BE69C2290297E20026C96C /* Extensions.swift in Sources */,
 				96CE7D4F2907CFC8006767C2 /* MediumNativeAdView.swift in Sources */,
@@ -471,6 +470,7 @@
 				96AAD26A29027DFD006C9EA4 /* BannerAdView.swift in Sources */,
 				96705086290FBAA900A21FB2 /* MediumManualNativeAdView.swift in Sources */,
 				967C1BB628FD09AF008C52FE /* AdProtocol.swift in Sources */,
+				96CAF27F291505BC00267482 /* MediumNativeAdViewBinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
