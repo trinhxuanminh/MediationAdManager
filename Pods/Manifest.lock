@@ -1,11 +1,4 @@
 PODS:
-  - AdColony (4.9.0)
-  - AppLovinMediationAdColonyAdapter (4.9.0.0.2):
-    - AdColony (= 4.9.0)
-    - AppLovinSDK
-  - AppLovinMediationFacebookAdapter (6.12.0.0):
-    - AppLovinSDK
-    - FBAudienceNetwork (= 6.12.0)
   - AppLovinMediationGoogleAdapter (9.11.0.6):
     - AppLovinSDK
     - Google-Mobile-Ads-SDK (= 9.11.0.1)
@@ -16,7 +9,6 @@ PODS:
     - AppLovinSDK
     - VungleSDK-iOS (= 6.12.0)
   - AppLovinSDK (11.5.3)
-  - FBAudienceNetwork (6.12.0)
   - Google-Mobile-Ads-SDK (9.11.0.1):
     - GoogleAppMeasurement (< 11.0, >= 7.0)
     - GoogleUserMessagingPlatform (>= 1.1)
@@ -72,25 +64,19 @@ PODS:
   - VungleSDK-iOS (6.12.0)
 
 DEPENDENCIES:
-  - AppLovinMediationAdColonyAdapter (= 4.9.0.0.2)
-  - AppLovinMediationFacebookAdapter (= 6.12.0.0)
   - AppLovinMediationGoogleAdapter (= 9.11.0.6)
   - AppLovinMediationUnityAdsAdapter (= 4.4.1.0)
   - AppLovinMediationVungleAdapter (= 6.12.0.3)
-  - AppLovinSDK (= 11.5.3)
+  - AppLovinSDK (= 011.5.3)
   - NVActivityIndicatorView (= 5.1.1)
   - SnapKit (= 5.6.0)
 
 SPEC REPOS:
   trunk:
-    - AdColony
-    - AppLovinMediationAdColonyAdapter
-    - AppLovinMediationFacebookAdapter
     - AppLovinMediationGoogleAdapter
     - AppLovinMediationUnityAdsAdapter
     - AppLovinMediationVungleAdapter
     - AppLovinSDK
-    - FBAudienceNetwork
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleUserMessagingPlatform
@@ -103,14 +89,10 @@ SPEC REPOS:
     - VungleSDK-iOS
 
 SPEC CHECKSUMS:
-  AdColony: 4f3738dc633d7aaa8ec60729df973076cc8e97ed
-  AppLovinMediationAdColonyAdapter: c8a0613a361cabae20da494d43a43ab6a4e403f5
-  AppLovinMediationFacebookAdapter: 5c119c9bc4f4c67e10964c0297aeddb07861efc4
   AppLovinMediationGoogleAdapter: 70911ba480a5f8024f8dd4df8140602237d61d97
   AppLovinMediationUnityAdsAdapter: 2bbaa938b039a5d8bd60156ee21a82c7fcaa5efe
   AppLovinMediationVungleAdapter: 4c2878408895d4d5dbbd5743ffb92d7a6a07ec9b
   AppLovinSDK: 6b10288343b15b31f7037ecd7aa630d6ea117585
-  FBAudienceNetwork: e0fcc9091fced34910ed0b6da06f129db46ac9e6
   Google-Mobile-Ads-SDK: 595bcae60a0ad9992a3f52fddb8aebda993a2d80
   GoogleAppMeasurement: e490e248af3da95afe8fa8e7baac232dc8d020b7
   GoogleUserMessagingPlatform: 5f8b30daf181805317b6b985bb51c1ff3beca054
@@ -122,6 +104,6 @@ SPEC CHECKSUMS:
   UnityAds: 1af6c4fdd7030c2593c58f520504e167561175ab
   VungleSDK-iOS: 1936f966dd5828d171fc514343741480bf219496
 
-PODFILE CHECKSUM: 021bb52af2d4ea599f553e01f57310f7c451a642
+PODFILE CHECKSUM: 54bde763693fe4126aa6c54428cdc7cad71e1bb2
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0

@@ -8,10 +8,10 @@ inhibit_all_warnings!
 target 'MediationAdManager' do
 	pod 'SnapKit', '5.6.0'
 	pod 'NVActivityIndicatorView', '5.1.1'
-    	pod 'AppLovinSDK', '11.5.3'
-	pod 'AppLovinMediationAdColonyAdapter', '4.9.0.0.2'
+    	pod 'AppLovinSDK', '011.5.3'
+	# pod 'AppLovinMediationAdColonyAdapter', '4.9.0.0.2'
    	pod 'AppLovinMediationGoogleAdapter', '9.11.0.6'
-   	pod 'AppLovinMediationFacebookAdapter', '6.12.0.0'
+   	# pod 'AppLovinMediationFacebookAdapter', '6.12.0.0'
     	pod 'AppLovinMediationUnityAdsAdapter', '4.4.1.0'
    	pod 'AppLovinMediationVungleAdapter', '6.12.0.3'
     	# pod 'AppLovinMediationIronSourceAdapter', '7.2.5.1.0'
