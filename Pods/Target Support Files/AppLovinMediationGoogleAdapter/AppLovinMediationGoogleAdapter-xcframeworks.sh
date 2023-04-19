@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/AppLovinMediationGoogleAdapter/AppLovinMediationGoogleAdapter-9.11.0.6/AppLovinMediationGoogleAdapter.xcframework" "AppLovinMediationGoogleAdapter" "library" "ios-arm64_armv7" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AppLovinMediationGoogleAdapter/AppLovinMediationGoogleAdapter-10.3.0.2/AppLovinMediationGoogleAdapter.xcframework" "AppLovinMediationGoogleAdapter" "library" "ios-arm64_armv7" "ios-arm64_x86_64-simulator"
 

@@ -17,7 +17,7 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
-  "AppLovinMediationUnityAdsAdapter.xcframework/ios-arm64_armv7")
+  "AppLovinMediationUnityAdsAdapter.xcframework/ios-arm64")
     echo ""
     ;;
   "AppLovinMediationUnityAdsAdapter.xcframework/ios-arm64_x86_64-simulator")
@@ -29,8 +29,8 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
-  "AppLovinMediationUnityAdsAdapter.xcframework/ios-arm64_armv7")
-    echo "arm64 armv7"
+  "AppLovinMediationUnityAdsAdapter.xcframework/ios-arm64")
+    echo "arm64"
     ;;
   "AppLovinMediationUnityAdsAdapter.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/AppLovinMediationUnityAdsAdapter/AppLovinMediationUnityAdsAdapter-4.4.1.0/AppLovinMediationUnityAdsAdapter.xcframework" "AppLovinMediationUnityAdsAdapter" "library" "ios-arm64_armv7" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AppLovinMediationUnityAdsAdapter/AppLovinMediationUnityAdsAdapter-4.6.1.0/AppLovinMediationUnityAdsAdapter.xcframework" "AppLovinMediationUnityAdsAdapter" "library" "ios-arm64" "ios-arm64_x86_64-simulator"
 

@@ -30,4 +30,10 @@ FOUNDATION_EXPORT const unsigned char UnityAdsModuleVersionString[];
 #import <UnityAds/UnityAnalyticsAcquisitionType.h>
 #import <UnityAds/UANAApiAnalytics.h>
 #import <UnityAds/UADSBanner.h>
+#import <UnityAds/USRVInitializeStateFactory.h>
+#import <UnityAds/USRVInitializeStateType.h>
+#import <UnityAds/UADSDeviceInfoProvider.h>
+#import <UnityAds/UADSInstallationId.h>
+#import <UnityAds/UADSSessionId.h>
+
 #endif /* UnityAds_h */

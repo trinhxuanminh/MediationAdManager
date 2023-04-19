@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/AppLovinMediationVungleAdapter/AppLovinMediationVungleAdapter-6.12.0.3/AppLovinMediationVungleAdapter.xcframework" "AppLovinMediationVungleAdapter" "library" "ios-arm64_armv7" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/AppLovinMediationVungleAdapter/AppLovinMediationVungleAdapter-6.12.3.0/AppLovinMediationVungleAdapter.xcframework" "AppLovinMediationVungleAdapter" "library" "ios-arm64_armv7" "ios-arm64_x86_64-simulator"
 

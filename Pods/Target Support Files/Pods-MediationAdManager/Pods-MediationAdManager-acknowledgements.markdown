@@ -31,7 +31,7 @@ The AppLovin MAX SDK is available under a commercial license (https://www.applov
 ## AppLovinSDK
 
 
-Copyright 2022 AppLovin Corp. All rights reserved.
+Copyright 2023 AppLovin Corp. All rights reserved.
 
 The AppLovin SDK is available under a commercial license (https://www.applovin.com/eula).
 
@@ -39,7 +39,7 @@ The AppLovin SDK is available under a commercial license (https://www.applovin.c
 
 ## Google-Mobile-Ads-SDK
 
-Copyright 2022 Google
+Copyright 2023 Google
 
 ## GoogleAppMeasurement
 
